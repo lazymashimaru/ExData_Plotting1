@@ -3,7 +3,7 @@ source("data_load.r")
 #initialize graphics device
 png(filename = "plot3.png",width = 480, height = 480, units = "px", pointsize = 12,bg = "white")
 #plot
-plot(final_data$DateTime,final_data$Sub_metering_1,pch = ".")
+plot(final_data$DateTime,final_data$Sub_metering_1,pch = ".",ylab = "Energy sub metering", xlab = "")
 #connect the dots for sub_metering_1
 lines(final_data$DateTime,final_data$Sub_metering_1,lty = 1, lwd = 1)
 #add line for sub_metering_2
