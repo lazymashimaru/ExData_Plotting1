@@ -1,3 +1,12 @@
+## Instructions
+The data is not included inside the folder, download it from the link below and place it into your working directory.
+The codes are to be run under the working directory "~/ExData_Plotting1". Which is set in data_load.r , if you need to run it under the folder transfer the following files to the new folder:
+1. data_load.r
+2. plot1.r
+3. plot2.r
+3. plot3.r
+4. plot4.r
+The images will be produced on which working directory you are on. Should you wish to create the plots, just type the following in your R console, Example: source("plot1.r") The plot R files will automatically call data_load.r for you. 
 ## Introduction
 
 This assignment uses data from
